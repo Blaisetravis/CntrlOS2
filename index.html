@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="window=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <div class="topbar">
+        <ul class="top-toolbar">
+            <div>
+                <button id="menu-button">
+                    <img src="index-logo.png" alt="" id="index-logo">
+                </button>
+
+                <div class="menu-parent">
+                    <div class="container">
+                        <button class="menu-item">About Cntrl</button>
+                        <hr>
+                        <button class="menu-item">Restart</button>
+                        <hr>
+                        <button class="menu-item">Force Quit</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <button id="Home-Button"  class="topbar-button">Finder</button>
+                <div class="menu-parent">
+                    <div class="container">
+                        <button class="menu-item" id="open-finder">Open Finder</button>
+                        <hr>
+                        <button class="menu-item">Prefrences</button>
+                        <hr>
+                        <button class="menu-item">Show all</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <button id="Shop-Button" class="topbar-button">Shop</button>
+                <div class="menu-parent">
+                    <div class="container">
+                        <button class="menu-item" id="cntrl-store">Cntrl Store</button>
+                        <hr>
+                        <button class="menu-item">My Cart</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <button id="Arkaiv-Button" class="topbar-button">Arkaiv</button>
+                <div class="menu-parent">
+                    <div class="container">
+                        <button class="menu-item">Documents</button>
+                        <hr>
+                        <button class="menu-item">Videos</button>
+                        <hr>
+                        <button class="menu-item">Samples</button>
+                        <hr>
+                        <button class="menu-item">Designs</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <button id="Contact-Button" class="topbar-button">Contact</button>
+                <div class="menu-parent">
+                    <div class="container">
+                        <button class="menu-item">contact Us</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </ul>
+        <div class="time-display" id="time-display">
+        </div>
+    </div>
+    
+
+    <div class="program-windows">
+
+        <div id="arkaiv-folder">
+            <button id="arkaiv-folder-button">
+                <img src="Arkaiv-logo.png" alt="Arkaiv">
+                <p>Arkaiv</p>
+            </button>
+        </div>
+        <div class="application system-popup" id="main-popup">
+            
+            <template id="title-bar-template">
+                <div class="title-bar">
+                    <div class="title-bar-controls">
+                        <button title="Close window" class="title-bar-control red" id="window-close"></button>
+                        <button title="Minimize window" class="title-bar-control yellow"></button>
+                        <button title="Maximize window" class="title-bar-control green"  id="window-maximize"></button>
+                    </div>
+                    <div class="title-bar-title">App Title</div>
+                </div>
+            </template>
+
+            <section class="pop-up-body-wrapper">
+                <section class="pop-up-body">
+                    <div class="window-logo">
+                        <img src="cntrl .png" alt="" id="cntrl-logo">
+                    </div>
+                    <div class="system-title">
+                        <p>
+                            A Thousand Lives A Thousand Trials
+                        </p>
+                    </div>
+                    <div class="system-update">
+                        <p id="system-version">
+                            Version 6.0
+                        </p>
+                        <p id="updated">
+                            System is up to date
+                        </p>
+                    </div>
+                    <footer id="pop-up-body-footer">
+                        <p>
+                            MADE FROM MUD 2024 <br>
+                            All Rights Reserved
+                        </p>
+                    </footer>
+                </section>
+            </section>
+            
+        </div>
+
+        <section id="shop-wrapper" class="application">
+            <div class="shop-menu">
+                <a href="#" class="shop-item" id="item1">
+                    <img src="Shop items/pack+.png" alt="Pack">
+                    <h6>3Pac</h6>
+                    <p>$30.00</p>
+                </a>
+                <a href="#"  class="shop-item" id="item2">
+                    <img src="Shop items/gloves+.png" alt="Gloves">
+                    <h6>Gloves</h6>
+                    <p>$15.00</p>
+                </a>
+                <a href="#" class="shop-item" id="item3">
+                    <img src="Shop items/EQUIPE JACK.png" alt="Gloves">
+                    <h6>Equipe</h6>
+                    <p>$105.00</p>
+                </a>
+            </div>
+        </section>
+
+
+        <section id="contact-wrapper">
+
+        </section>
+
+        <section id="cart-wrapper" class="application">
+            <div class="cart-items">
+                <div class="empty-message">
+                    <p>You have nothing in your shopping cart
+                    </p>
+                    <button id="empty-cart-add">
+                        Cntrl Store
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="arkaiv-wrapper" class="application">
+            <div class="arkaiv-items">
+                <div id="arkaiv-window">
+                    <div id="left-menu">
+                        <div id="sidebar-menu-wrapper">
+                            <ul id="Documents" class="sidebar-containers">
+                                <h6>Documents</h6>
+                                <a  id="cntrl-24"  class="sidebar-item">
+                                    <div id="button-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                                            <path d="M 7 2 L 7 48 L 43 48 L 43 14.59375 L 42.71875 14.28125 L 30.71875 2.28125 L 30.40625 2 Z M 9 4 L 29 4 L 29 16 L 41 16 L 41 46 L 9 46 Z M 31 5.4375 L 39.5625 14 L 31 14 Z M 15 22 L 15 24 L 35 24 L 35 22 Z M 15 28 L 15 30 L 31 30 L 31 28 Z M 15 34 L 15 36 L 35 36 L 35 34 Z"></path>
+                                        </svg>
+                                    </div>
+                                    <h5>Cntrl 24</h5>
+                                    
+                                </a>
+                                <hr>
+    
+                                <a id="cntrl23" class="sidebar-item">
+                                    <div id="button-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                                            <path d="M 7 2 L 7 48 L 43 48 L 43 14.59375 L 42.71875 14.28125 L 30.71875 2.28125 L 30.40625 2 Z M 9 4 L 29 4 L 29 16 L 41 16 L 41 46 L 9 46 Z M 31 5.4375 L 39.5625 14 L 31 14 Z M 15 22 L 15 24 L 35 24 L 35 22 Z M 15 28 L 15 30 L 31 30 L 31 28 Z M 15 34 L 15 36 L 35 36 L 35 34 Z"></path>
+                                        </svg>
+                                    </div>
+                                    <h5>Cntrl 23</h5>
+                                </a>
+                            </ul>
+
+                            
+                            <ul id="iCloud" class="sidebar-containers">
+                                <h6>iCloud</h6>
+                                <a  id="Videos" class="sidebar-item">
+                                    <div id="button-icon">
+                                        <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M30,6h-0.887c-0.525,0-1.029,0.207-1.404,0.576L25,9.248V8c0-1.657-1.344-3-3-3H3  C1.346,5,0,6.345,0,8v6.972V24c0,1.656,1.343,3,3,3h19c1.656,0,3-1.344,3-3v-1.221l2.709,2.672c0.375,0.369,0.879,0.576,1.404,0.576  H30c1.104,0,2-0.895,2-2V8C32,6.895,31.104,6,30,6z M3,25c-0.552,0-1-0.449-1-1V8c0-0.553,0.447-1,1-1h19c0.551,0,1,0.448,1,1v16  c0,0.551-0.449,1-1,1H3z M30,24.027h-0.887H29l-4-4V20l-1-1v-6l5-5h0.113H30V24.027z"  id="video"/></svg>
+                                    </div>
+                                    <h5>Videos</h5>
+                                </a>
+                                <hr>
+                                <a  class="sidebar-item">
+                                    <div id="button-icon">
+                                        <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M15.5,0C6.939,0,0,6.939,0,15.5S6.939,31,15.5,31S31,24.061,31,15.5S24.061,0,15.5,0z M28.975,15  h-5.996c-0.055-2.215-0.449-4.331-1.148-6.268c1.35-0.563,2.598-1.312,3.736-2.197C27.59,8.806,28.855,11.755,28.975,15z   M14.947,28.972c-1.662-1.384-3.056-3.181-4.076-5.268c1.309-0.409,2.696-0.633,4.129-0.679v5.949  C14.982,28.974,14.965,28.973,14.947,28.972z M16.051,2.028c1.886,1.57,3.425,3.673,4.466,6.126c-1.426,0.487-2.941,0.77-4.518,0.82  V2.025C16.018,2.026,16.034,2.027,16.051,2.028z M17.717,2.198c2.76,0.459,5.236,1.748,7.164,3.614  c-1.047,0.803-2.191,1.483-3.428,1.998C20.543,5.653,19.266,3.746,17.717,2.198z M15,2.025v6.949  c-1.577-0.051-3.093-0.333-4.518-0.82c1.041-2.453,2.58-4.556,4.466-6.126C14.966,2.027,14.982,2.026,15,2.025z M9.546,7.811  c-1.235-0.515-2.38-1.195-3.427-1.998c1.927-1.866,4.404-3.155,7.164-3.614C11.733,3.746,10.457,5.653,9.546,7.811z M10.105,9.076  C11.647,9.611,13.29,9.923,15,9.975V15H9.021C9.075,12.906,9.446,10.905,10.105,9.076z M15,16v6.025  c-1.577,0.048-3.102,0.306-4.539,0.769C9.595,20.732,9.084,18.435,9.021,16H15z M13.283,28.802  c-2.473-0.411-4.719-1.488-6.545-3.052c0.985-0.683,2.05-1.261,3.188-1.7C10.798,25.858,11.939,27.463,13.283,28.802z M16,28.975  v-5.949c1.432,0.046,2.82,0.27,4.129,0.679c-1.021,2.087-2.414,3.884-4.076,5.268C16.036,28.973,16.018,28.974,16,28.975z   M21.074,24.05c1.137,0.439,2.201,1.018,3.188,1.7c-1.826,1.563-4.072,2.641-6.545,3.052C19.061,27.463,20.201,25.858,21.074,24.05z   M20.539,22.794c-1.438-0.463-2.963-0.721-4.539-0.769V16h5.979C21.916,18.435,21.404,20.732,20.539,22.794z M16,15V9.975  c1.709-0.052,3.352-0.363,4.895-0.898c0.658,1.829,1.029,3.83,1.084,5.924H16z M5.434,6.535C6.572,7.42,7.82,8.169,9.169,8.732  C8.47,10.669,8.076,12.785,8.021,15H2.025C2.145,11.755,3.41,8.806,5.434,6.535z M2.025,16h5.996  c0.062,2.555,0.596,4.968,1.503,7.137c-1.267,0.494-2.448,1.152-3.538,1.931C3.638,22.731,2.156,19.536,2.025,16z M25.014,25.067  c-1.09-0.778-2.271-1.437-3.539-1.931c0.908-2.169,1.441-4.582,1.504-7.137h5.996C28.844,19.536,27.361,22.731,25.014,25.067z"  id="world"/></svg>
+                                    </div>
+                                    <h5>R-A-M</h5>
+                                </a>
+                            </ul>
+
+
+
+
+
+
+                        </div>    
+                    </div>
+    
+                    <div id="right-display">
+                        <div id="file-display">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </div>
+
+
+
+
+
+    
+
+
+
+
+
+    <div class="bottom-menu-wrapper">
+        <div id="shop" class="bottom-menu">
+            <button id="finder" >
+                <img src="FinderIcon.0b09e40.png" title="Finder" alt="" id="finder-icon" >
+            </button>
+            <button id="cntrl-shop" title="Cntrl Store">
+                <img src="Shop-icon.png" alt="" id="Shop-icon">
+            </button>
+            <button id="contact" title="Contact">
+                <img src="Contact-icon.png" alt="" id="contact-icon">
+            </button>
+            <button id="Cart-button" title="Cart">
+                <img src="Cart-icon.png" alt="" id="cart-icon">
+            </button>
+            <button id="Trash-button" title="trash">
+                <img src="trash icon.png" alt="" id="cart-icon">
+            </button>
+        </div>
+
+        
+    </div>
+    <div class="background">
+        <img src="Background.jpeg" alt="" id="background">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
