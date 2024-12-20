@@ -4,7 +4,7 @@
     "description": "made from mud",
     "main": "index.html",
     "scripts": {
-        "start": "node index.html"
+        "start": "node server.js"
     },
     "dependencies": {
         "express": "^4.17.1"
